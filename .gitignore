@@ -1,0 +1,12 @@
+# Comment
+TempFile.txt
+*.zip
+*.gz
+log/*.log
+log/*.log[0-9]
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4
+
+# Would log/archice/access.log be ignored? No. Folders nested in folders will not be ignored
+# unless you say so.
